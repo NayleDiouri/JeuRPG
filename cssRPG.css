@@ -1,0 +1,92 @@
+body{
+    height: 100%;
+    background-image: url(background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column-reverse; 
+    margin: 0;
+    color: white;
+}
+html{
+    height: 100%;
+}
+.ennemie{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end; 
+}
+.characters{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end; 
+}
+
+#interface{
+    width: auto; 
+    height: 25%;
+    display:flex;
+    justify-content : center;
+    align-items : center;
+    background: black;
+    border: solid white;
+}
+#allimages{
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+#nomperso1{
+    visibility : visible;    
+}
+#nomperso2{
+    visibility : hidden;    
+}
+#nomperso3{
+    visibility : hidden;    
+}
+#nomperso4{
+    visibility : hidden;    
+}
+
+#nomennemie1{
+    visibility : hidden;    
+}
+#nomennemie2{
+    visibility : hidden;    
+}
+#nomennemie3{
+    visibility : hidden;    
+}
+#hudperso1{
+    width : auto;
+    height: auto;
+    display : flex;
+    flex-direction : column;
+}
+#hudperso2{
+    width : auto;
+    height: auto;
+    display : flex;
+    flex-direction : column;
+}
+#hudperso3{
+    width : auto;
+    height: auto;
+    display : flex;
+    flex-direction : column;
+}
+#hudperso4{
+    width : auto;
+    height: auto;
+    display : flex;
+    flex-direction : column;
+}
+#allhuds{
+    display : flex;
+    flex-direction : row;
+
+}
